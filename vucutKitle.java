@@ -10,11 +10,11 @@ public class vucutKitle {
 
         System.out.print("Kilonuz Nedir: ");
         int kilo = scanner.nextInt();
+        
         System.out.print("Boyunuz Nedir (Örnek 1,86):");
-
         double boy = scanner.nextDouble();
+        
         double vki = kilo / (boy * boy);
-
         System.out.println("Vücut Kütle İndeksiniz: " + vki);
 
 
